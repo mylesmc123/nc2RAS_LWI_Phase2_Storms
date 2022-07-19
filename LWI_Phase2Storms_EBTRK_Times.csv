@@ -1,0 +1,14 @@
+Name,StormID,StartTime,EndTime
+Tropical Storm Bertha (2002),Bertha_2002,8/4/02 18:00,8/9/02 12:00
+Hurricane Isidore (2002),Isidore_2002,9/14/02 18:00,9/27/02 18:00
+Hurricane Lili (2002),Lili_2002,9/21/02 8:00,10/4/02 12:00
+Tropical Storm Bill (2003),Bill_2003,6/28/03 6:00,7/30/03 0:00
+Tropical Storm Matthew (2004),Matthew_2004,10/8/04 12:00,10/11/04 6:00
+Hurricane Cindy (2005),Cindy_2005,7/3/05 18:00,7/11/05 6:00
+Hurricane Rita (2005),Rita_2005,9/18/05 0:00,9/26/05 6:00
+Hurricane Gustav (2008),Gustav_2008,8/25/08 0:00,9/5/08 12:00
+Tropical Storm Bonnie (2010),Bonnie_2010,7/22/10 6:00,7/25/10 18:00
+Tropical Storm Lee (2011),Lee_2011,9/2/11 0:00,9/6/11 18:00
+Tropical Storm Cindy (2017),Cindy_2017,6/19/17 18:00,6/24/17 6:00
+Hurricane Barry (2019),Barry_2019,7/10/19 12:00,7/16/19 6:00
+Hurricane Ida (2021),Ida_2021,8/26/21 18:00,9/4/21 0:00
