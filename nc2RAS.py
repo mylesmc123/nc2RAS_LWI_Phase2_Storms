@@ -91,4 +91,4 @@ for file in filenameList:
         }
 
     ds.to_netcdf(path="./output/"+outFilename, format="NETCDF4", engine="netcdf4")
-    print (f"\n{outFilename} Successfully Writted to Disk.")
+    print (f"\n{outFilename} Successfully Written to Disk.")
