@@ -18,12 +18,12 @@ variables = ['PRCP']
 
 # clip_shp = r"C:\jy\vortexImport\Truckee_River_Watershed_5mi_buffer\Truckee_River_Watershed_5mi_buffer.shp"
 
-# geo_options = {
-    # 'pathToShp': clip_shp,
+geo_options = {
+    'pathToShp': r"Z:\LWI\EJPM-OS-Param-Rainfall-Tests\AmiteBasinShape.shp",
     # 'targetCellSize': '2000',
     # 'targetWkt': WktFactory.shg(),
     # 'resamplingMethod': 'Bilinear'
-# }
+}
 
 # 'Z:\\LWI\\EJPM-OS-Param-Rainfall-Tests\\2004_MATTHEW\\PRCP_hourly_2004_MATTHEW_Sim450.nc'
 
@@ -38,17 +38,10 @@ for afile in f:
     'partF': ensembleId
     }
 
-    # myImport = BatchImporter.builder() \
-    #     .inFiles(in_files) \
-    #     .variables(variables) \
-    #     .geoOptions(geo_options) \
-    #     .destination(destination) \
-    #     .writeOptions(write_options) \
-    #     .build()
-
     myImport = BatchImporter.builder() \
         .inFiles(in_files) \
         .variables(variables) \
+        .geoOptions(geo_options) \
         .destination(destination) \
         .writeOptions(write_options) \
         .build()
