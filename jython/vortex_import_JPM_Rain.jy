@@ -19,7 +19,7 @@ events = ['2004_MATTHEW', '2005_RITA', '2012_ISAAC']
 
 for event in events:
 
-    in_dir = "Z:\\LWI\\EJPM-OS-Param-Rainfall-Tests\\"+event
+    in_dir = "Z:\\LWI\\EJPM-OS-Param-Rainfall-Tests\\"+ event
     f = glob.glob(in_dir+"//*.nc") 
 
     for afile in f:
