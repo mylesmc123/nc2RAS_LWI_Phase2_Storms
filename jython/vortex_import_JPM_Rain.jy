@@ -19,11 +19,11 @@ events = ['2004_MATTHEW', '2005_RITA', '2012_ISAAC']
 
 for event in events:
 
-    in_dir = rf'Z:\LWI\EJPM-OS-Param-Rainfall-Tests\{event}'
+    in_dir = "Z:\\LWI\\EJPM-OS-Param-Rainfall-Tests\\"+event
     f = glob.glob(in_dir+"//*.nc") 
 
     for afile in f:
-        
+
         in_files = [afile]
         stormId = afile.split("_")[4]
         ensembleId = afile.split("_")[5].split(".")[0]
